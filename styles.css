@@ -8,3 +8,22 @@ body {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+}
+
+.center-wrapper {
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+.block > * {
+    margin-top: 40px;
+  }
+
+  .one-column-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+  }

@@ -8,7 +8,8 @@
     <title>Stylish Form</title>
   </head>
   <body>
-    <form>
+    <form class="center-wrapper block one-column-grid">
+
       <h1>Say Hello!</h1>
 
       <label for="username">Your Name</label>
@@ -28,7 +29,7 @@
       </select>
 
       <label for="budget">Budget</label>
-      <select name="budget" id="budget">
+      <select name="budget" id="budget" required>
         <option value="">Select Budget</option>
         <option value="£500-£1000">£500-£1000</option>
         <option value="£1000-£2000">£1000-£2000</option>
@@ -37,6 +38,8 @@
 
       <label for="message">Message</label>
       <input placeholder="Your message here..." type="text" name="message" id="message">
+
+      <button type="Submit">Submit</button>
     </form>
   </body>
 </html>
