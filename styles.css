@@ -6,6 +6,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(120, 181, 238);
 }
 
 h1 {
@@ -14,16 +15,50 @@ h1 {
 
 .center-wrapper {
     max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    margin: 50px auto;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
 }
 
 .block > * {
     margin-top: 40px;
   }
 
-  .one-column-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-  }
+.one-column-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+label {
+    color: grey;
+}
+
+input,
+select {
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid gray;
+  background-color: rgb(255, 255, 255);
+}
+
+.message-section {
+    padding-bottom: 100px;
+}
+
+button {
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(101, 151, 226);
+    border-color: rgb(101, 151, 226);
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
